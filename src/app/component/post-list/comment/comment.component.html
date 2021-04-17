@@ -1,0 +1,15 @@
+
+<div class="row">
+ <div class="col-xs-12">
+   <h2>COMMENTAIRES DE L'ARTICLE: {{postId}}</h2>
+   <div class="list-group">
+     <div
+       class="list-group-item"
+       *ngFor="let comment of comments">
+       <h4 class="card-title">{{ comment.name | uppercase}}</h4>
+       <small> <strong>Email: </strong> {{ comment.email }}</small>
+       <p>{{ comment.body }}</p>
+     </div>
+   </div>
+ </div>
+</div>

@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+With Docker Run `docker-compose up -d` and navigate to `http://localhost:80/`
 
 ## Code scaffolding
 

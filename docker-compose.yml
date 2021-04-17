@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+
+  nginx:
+    container_name: test-technique
+    image: app-test-technique
+    build: '.'
+    ports:
+      - "80:80"
+      - "443:443"
